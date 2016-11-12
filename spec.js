@@ -8,3 +8,4 @@ describe('suite', function () {
         browser.get('https://github.com/StartITProtractorJS')
         expect(browser.getTitle()).toBe('StartITProtractorJS')   
 })
+})
