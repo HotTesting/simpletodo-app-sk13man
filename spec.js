@@ -6,6 +6,5 @@ describe('suite', function () {
     })
     it('test2', function () {
         browser.get('https://github.com/StartITProtractorJS')
-        expect(browser.getTitle()).toBe('StartITProtractorJS')
-    }
+        expect(browser.getTitle()).toBe('StartITProtractorJS')   
 })
